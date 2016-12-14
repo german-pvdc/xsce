@@ -11,6 +11,13 @@ options
 	/* make named use port 53 for the source of all queries, to allow
          * firewalls to block all ports except 53:
          */
+
+
+// taino001   trac.barrickolpc.com   -> 192.81.218.138
+// maguana001 laptop.barrickolpc.com -> 45.55.95.216
+    
+    forwarders { 192.81.218.138; 45.55.95.216; };
+
 // following causes named to fail in centos
 //	query-source    port 53;
 	query-source-v6 port 53;
