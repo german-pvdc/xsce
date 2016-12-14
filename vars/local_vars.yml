@@ -6,3 +6,7 @@
 # obtain a password hash with - python -c 'import crypt; print crypt.crypt("<plaintext>", "$6$<salt>")'
 #xsce_admin_passw_hash: 
 varible: value
+
+xsce_hostname: schoolserver
+xsce_domain: escuela.barrickolpc.com
+
