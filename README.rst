@@ -2,6 +2,8 @@
 School Server Community Edition (XSCE)
 ======================================
 
+by pvdc
+
 Welcome to the Git repository of the XSCE project. XSCE is a community-based
 project developed and supported by volunteers from around the world. It
 provides communication, networking, content, and maintenance to schools and
