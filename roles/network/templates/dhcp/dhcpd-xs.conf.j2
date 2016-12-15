@@ -61,12 +61,16 @@ subnet 172.18.96.0 netmask 255.255.224.0 {
         range 172.18.125.1 172.18.125.254;
         deny members of "xo";
     }
-    }
 
     # Equipos con IP reservada por MAC
     host ubuntu-levono {
         hardware ethernet 18:3d:a2:05:3e:24;
         fixed-address 172.18.124.10;
+    }
+
+    host ubuntu-lenovo-lan {
+        hardware ethernet f0:de:f1:f0:c2:ae;
+        fixed-address 172.18.124.11;
     }
 
     # Equipos con IP reservada por MAC
