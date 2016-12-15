@@ -23,8 +23,8 @@ $IPTABLES -A INPUT -p udp --dport 3306 -j DROP
 $IPTABLES -A INPUT -p tcp --dport 5432 -j DROP
 $IPTABLES -A INPUT -p udp --dport 5432 -j DROP
 # couchdb
-$IPTABLES -A INPUT -p tcp --dport 5984 -j DROP
-$IPTABLES -A INPUT -p udp --dport 5984 -j DROP
+#$IPTABLES -A INPUT -p tcp --dport 5984 -j DROP
+#$IPTABLES -A INPUT -p udp --dport 5984 -j DROP
 }
 
 if [  "x$WANIF" == "x" ]; then
